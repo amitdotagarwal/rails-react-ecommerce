@@ -50,8 +50,10 @@ group :development, :test do
 end
 
 group :test do
-  gem 'cucumber', '~> 3.1.0'
-  gem 'rspec', '~> 3.7.0'
+	gem "capybara"
+	gem "cucumber"
+	gem "rspec", :require => "spec"
+	gem "poltergeist"
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
