@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+'''Ruby
 
-Things you may want to cover:
+Mac
+Homebrew: brew tap homebrew/cask && brew cask install phantomjs
+MacPorts: sudo port install phantomjs
+Manual install: Download this
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+'''
