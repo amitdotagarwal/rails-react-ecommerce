@@ -8,7 +8,7 @@ require 'rspec/rails'
 
 require 'capybara_helper'
 Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
-Dir["./spec/support/custom_matchers/**/*.rb"].each { |f| require f}
+Dir["./spec/supports/*.rb"].each { |f| require f}
 
 # Add additional requires below this line. Rails is not loaded until this point!
 
