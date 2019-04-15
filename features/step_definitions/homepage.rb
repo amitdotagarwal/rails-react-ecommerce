@@ -1,5 +1,5 @@
 Given("I am on the home page") do
-  visit '/'
+  visit "/"
 end
 
 When("I visit homepage I should see title as Menu Items") do
